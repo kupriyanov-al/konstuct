@@ -50,6 +50,17 @@ body {
 .wrapper {
 	min-width: 100%;
 }
+/* --UTILS-- */
+
+.container {
+	max-width: 941px;
+	margin: 0 auto;
+}
+
+
+
+/* --HEADER-- */
+
 .header {
 	background: url(/img/bg.jpg) center no-repeat;
 	/* background-size: cover; */
@@ -94,4 +105,54 @@ body {
 	letter-spacing: 3.7px;
 	margin-bottom: 71px;
 	text-transform: uppercase;
+}
+
+/* --MENU-- */
+
+.nav__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+
+	margin: 20px 0;
+}
+.nav__logo {
+}
+.nav__menu {
+	
+}
+
+.nav__item {
+	text-decoration: none;
+	color: #48555B;
+}
+.nav__item:not(:last-child) {
+	margin: 0px 21px 0px 0px;
+}
+
+.nav__item:hover {
+	color: #00A4E5;
+}
+
+/* --STORY-- */
+.story {
+	margin-top: 58px;
+
+}
+
+.story__title {
+	text-align: center;
+	font-size: 18px;
+}
+.story__block {
+	display: flex;
+	flex-direction: column;
+}
+.story__block-title {
+}
+.story__block-text {
+}
+.img__block {
+}
+.img__plan {
 }
