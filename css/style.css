@@ -92,7 +92,7 @@ body {
 	font-weight: 400;
 	line-height: 70px;
 	letter-spacing: 5.70937px;
-	margin-bottom: ;
+	
 }
 .head__subtitle {
 	font-size: 16px;
@@ -143,16 +143,134 @@ body {
 .story__title {
 	text-align: center;
 	font-size: 18px;
+	margin-bottom: 30px;
 }
-.story__block {
+
+.story__inner {
 	display: flex;
-	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 120px;
+}
+.story-block {
+	flex: 1 1 50%;
+	margin-right: 50px;
 }
 .story__block-title {
+	font-size: 20px;
+	letter-spacing: 0.1875px;
+	line-height: 23px;
+	font-weight: 700;
+	margin-bottom: 30px;
 }
 .story__block-text {
 }
 .img__block {
+	flex: 1 1 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
 }
 .img__plan {
+	position: relative;
+
+}
+
+.img__text {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 121%;
+	color: #FFFFFF;
+}
+
+/* --PROJECT-- */
+
+.project {
+	margin-bottom: 30px;
+}
+.project__header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 75px;
+}
+.project__titele {
+	margin-right: 150px;
+	font-size: 18px;
+	line-height: 21px;
+	min-width: 200px;
+}
+.project__text {
+	margin-right: 32px;
+	flex: 1 1 auto;
+}
+.project__btn {
+	min-width: 150px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 30px;
+	vertical-align: top;
+	background: #00A4E5;
+	border: 0px;
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+
+.projectcart__row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px; 
+
+}
+.projectcart__col {
+	flex: 0 0 33.333%;
+	padding: 0 15px;
+	
+}
+.projectcart__item {
+	border: 1px solid #E6E6E6;
+	padding: 35px 23px;
+}
+.item__img {
+}
+.item__title {
+	margin: 15px 0;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	
+}
+.item__text {
+}
+
+.build {
+	background: url(/img/bgfooter.jpg) center no-repeat;
+	/* background-size: cover; */
+	height: 500px;
+	width: 100%;
+	position: relative;
+	
+}
+.title {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+	line-height: 120%;
+
+}
+
+.bild__btn {
+		position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
