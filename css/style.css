@@ -211,15 +211,33 @@ body {
 }
 
 .btn {
-	display: inline-block;
-	padding: 10px 30px;
+	/* display: inline-block;
+	padding: 15px 30px;
 	vertical-align: top;
 	background: #00A4E5;
 	border: 0px;
 	color: #FFFFFF;
 	font-weight: 600;
 	font-size: 13px;
-	line-height: 15px;
+	line-height: 15px; */
+
+
+	
+	display: flex;
+	min-height: 40px;
+	min-width: 150px;
+	background: #00A4E5;
+	justify-content: center;
+	align-items: center;
+	
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 15px; 
+	padding: 5px 15px;
+	
+	
+	
 }
 
 
@@ -290,6 +308,7 @@ body {
 	margin-right: 80px;
 }
 .mail__edit {
+	display: flex;
 	
 }
 .mail__input {
