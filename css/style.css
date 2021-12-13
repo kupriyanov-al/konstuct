@@ -270,7 +270,7 @@ body {
 
 .build {
 	background: url(/img/bgfooter.jpg) center no-repeat;
-	/* background-size: cover; */
+	background-size: cover;
 	height: 500px;
 	width: 100%;
 	position: relative;
@@ -307,14 +307,90 @@ body {
 	line-height: 26px;
 	margin-right: 80px;
 }
-.mail__edit {
+
+.subscribe {
 	display: flex;
+}
+.subscribe__input {
+	width: 250px;
+	height: 40px;
+	border: 1px solid  #979797;
+	padding: 12px;
+}
+.subscribe__btn {
+	width: 150px;
+	height: 40px;
+	background:  #00A4E5;
+	color: #FFFFFF;
+}
+
+/* -- footer -- */
+
+.footer {
+	padding-top: 60px;
+	background-color: #171819;
+
+}
+
+.footer__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__col {
+	flex: 0 1 30%;
+	padding-right: 40px;
+}
+
+.footer__item {
 	
 }
-.mail__input {
-	height: 40px;
-	width: 250px;
+
+.footer__title {
+	color: #FFFFFF;
+	margin-bottom: 15px;
 }
-.btn {
-	height: 40px;
+
+.footer__text {
+	margin-top: 15px;
+	color: #FFFFFF;
+	font-size: 11px;
+	line-height: 173%;
+
+}
+
+.footer__text-link {
+	display: flex;
+}
+
+.linc__col {
+	flex: 0 0 33%;
+	padding-right: 25px;
+}
+
+.linc__col a {
+	color: #FFFFFF;
+}
+
+.label {
+	color: #FFFFFF;
+}
+.footer__col-adress {
+	flex: 0 1 25%;
+	padding-right: 35px;
+}
+
+.copyright {
+	background-color: #171819;
+	padding: 30px 0;
+	width: 100%;
+	margin: 0 auto;
+	
+	
+}
+.copyright__text {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 11px;
+	line-height: 13px;
 }
